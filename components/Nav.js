@@ -1,10 +1,11 @@
 import React from "react";
-import Link from 'next/link';
 import Btn from "./Btn";
+import Link from 'next/link';
+import './Nav.css'; // the styles import
 
 export default () => (
-    <div>
+    <nav>
         <Link href="/" passHref><Btn>Index</Btn></Link>
         <Link href="/second" passHref><Btn>Second</Btn></Link>
-    </div>
+    </nav>
 );
