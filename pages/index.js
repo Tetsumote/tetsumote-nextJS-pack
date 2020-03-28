@@ -11,7 +11,7 @@ export default () => (
         {posts.map((post, index) => (
             <li key={index}>
                 <Link href={{pathname: '/second', query: {id: index}}}>
-                    <a>{post.title}</a>
+                    <a>{post.title}</a> 
                 </Link>
             </li>
         ))}
